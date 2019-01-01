@@ -43,7 +43,8 @@ set laststatus=2
 
 " gitgutter
 Plugin 'airblade/vim-gitgutter'
-let g:gitgutter_sign_column_always = 1
+" let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
 
 " fugitive
 Plugin 'tpope/vim-fugitive'
